@@ -1,0 +1,25 @@
+.group-image {
+   display: block;
+   &__label {
+      margin: 0 auto;
+      display: block;
+      width: 10%;
+   }
+   &__input {
+      display: block;
+      width: 50%;
+      margin: 0 auto;
+   }
+
+   &__category {
+      text-align: center;
+      display: block;
+      width: 40%;
+      margin:  0 auto;
+      &__label {
+         display: inline;
+         text-align: center;
+      }
+      
+   }
+}

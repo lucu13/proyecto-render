@@ -1,0 +1,35 @@
+.box-nav {
+   width: 100vw;
+   margin: 0;
+   background: linear-gradient(rgb(14, 68, 58), rgb(121, 118, 118));
+
+   &__nav {
+      
+      margin: 0;
+      height: 40px;
+      &__list {
+         width: 100%;
+         display: flex;
+         align-content: center;
+         
+         justify-content: center;
+         list-style-type: none;
+         &__item {
+            border-right: 1px solid white;
+            & a {
+               padding: 5px 30px;
+               text-decoration: none;
+               font-size: 2em;
+               color: white;
+               &:hover {
+                  color: rgb(0, 255, 213);
+               }
+            }
+         }
+      }
+   }
+   & ul {
+      margin: 0%;
+      width: 100vw;
+   }
+}

@@ -1,0 +1,56 @@
+.footer {
+   background-color: #00b5a5;
+   position: relative;
+
+   &__box {
+      & .by {
+         font-size: 1.3rem;
+         font-style: italic;
+      }
+      & p {
+         color: white;
+      }
+      & .social {
+         font-size: 1.2rem;
+         padding: 10px;
+         width: 25%;
+         margin: 0 auto;
+         display: flex;
+         color: white;
+         gap: 30px;
+      }
+      &:nth-child(1){
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         color: rgb(251, 251, 251);
+         & h2 {
+            color: white;
+         }
+         & a {
+            display: block;
+            text-decoration: none;
+            color: white;
+            text-align: center;
+         }
+      }
+      &:nth-child(n+1){
+         color: rgb(251, 251, 251);
+         & h2 {
+            color: white;
+         }
+         & a {
+            display: block;
+            text-decoration: none;
+            color: white;
+            text-align: center;
+         }
+      }
+   }
+
+   &__redes-box {
+      float: left;
+      width: 100px;
+      background-color: #0aa9a6;
+      
+   }
+
+}

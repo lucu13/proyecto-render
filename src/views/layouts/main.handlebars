@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta name="description" content="">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://kit.fontawesome.com/b1396f0f59.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,200;1,8..144,500&display=swap" rel="stylesheet">
+   <title>Jugueteria Cosmica</title>
+  
+
+</head>
+
+<body >
+
+   <header id="header" class="header">
+         <div class="header__box-logo">
+
+            <div class="header__box-logo__container-img">
+               <img src="img/logo.png" alt="logo jugueteria cosmica">
+            </div>
+            <h1>JUGUETERIA COSMICA</h1>
+
+            
+         </div>
+         <div class="box-search">
+            <input type="text" 
+         placeholder=" buscar" class="header__input-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+         </div>
+         
+
+         <div class="header__cart-container">
+            <div>
+               <div class="header__cart-container__notification" id="notification">
+               
+            </div>
+            <a href="#" class="cart-link"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+            </div>
+            
+            </div>
+   </header>
+
+   <div class="box-nav" id="nav">
+            <nav class="box-nav__nav">
+               <ul class="box-nav__nav__list">
+                  <li class="box-nav__nav__list__item">
+                     <a href="/home" class="nav-link">Inicio</a>
+                  </li>
+                  <li class="box-nav__nav__list__item">
+                     <a href="/alta" class="nav-link">Alta</a>
+                  </li>
+                  <li class="box-nav__nav__list__item">
+                     <a href="/contact" class="nav-link">Contacto</a>
+                  </li>
+                  <li class="box-nav__nav__list__item">
+                     <a href="/about" class="nav-link">Nosotros</a>
+                  </li>
+
+               </ul>
+
+            </nav>
+   </div>
+   <main class="main">
+      <div  class="section-cart">
+         
+         <section>
+         <h3 id="close">x</h3>
+                  <div class="modal-cart" id="modal-cart">
+                  </div>
+      </section>
+      </div>
+      <div id="main-content" >
+         {{{body}}}
+      </div>
+   </main>
+
+   <footer class="footer">
+         
+         <div class="footer__box">
+            
+               <div class="social">
+                  <a href="#"><i class="fab fa-facebook-square"></i>Facebook</a>
+                  <a href="#"><i class="fab fa-twitter-square"></i>Twitter</a>
+                  <a href="#"><i class="fa-brands fa-linkedin"></i>Linkedin</a>
+               </div>
+
+               <p>
+                  Proyecto Integrador Etapa 2
+               </p>
+               <p class="by">by Carlos Lucumi</p>
+            
+         </div>
+         
+   </footer>
+   
+
+   <script src="js/main.js"></script>
+</body>
+
+</html>

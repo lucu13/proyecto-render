@@ -1,0 +1,14 @@
+@use 'base/reset';
+
+@use 'components/header';
+@use 'components/nav';
+@use 'components/main';
+@use 'components/cards-container';
+@use 'components/components';
+
+@use 'pages/alta';
+@use 'pages/container_group';
+@use 'pages/group';
+@use 'components/productsCart';
+@use 'components/footer';
+@use 'components/contact';

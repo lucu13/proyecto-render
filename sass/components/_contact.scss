@@ -1,0 +1,26 @@
+.form-contact {
+   width: 70%;
+   margin: 0 auto;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   justify-content: center;
+   align-items: center;
+
+   & div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      & label {
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         font-size: 1.2rem;
+         font-weight: bold;
+         color: rgb(92, 232, 218);
+      }
+      & textarea {
+         width: 130%;
+      }
+   }
+}
