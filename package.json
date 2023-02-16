@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node src/app.js",
     "sass-watch": "sass --no-source-map --watch sass/main.scss public/css/main.css"
   },
   "keywords": [],
